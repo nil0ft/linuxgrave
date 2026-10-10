@@ -41,6 +41,10 @@ function renderPlot(g) {
       <h2>/graves/${esc(g.slug)}/</h2>
       <pre role="img" aria-label="${esc(label)}">${esc(headstone(g))}
 <span data-ground>${esc(ground())}</span></pre>
+      <p class="respects" hidden>
+        <button type="button">[F] pay respects</button>
+        <span class="dim" data-laid aria-live="polite"></span>
+      </p>
       <dl>
         <dt>cause of death</dt><dd>${esc(g.cause)}</dd>
         <dt>survived by</dt><dd>${esc(g.survivedBy)}</dd>

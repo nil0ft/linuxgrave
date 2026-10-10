@@ -50,3 +50,8 @@ export function headstone({ name, born, buried, epitaph }) {
 export function ground() {
   return '"'.repeat(WIDTH)
 }
+
+export function flowerSpots() {
+  const start = Math.floor(WIDTH / 2)
+  return Array.from({ length: WIDTH }, (_, k) => (start + k * 7) % WIDTH)
+}
