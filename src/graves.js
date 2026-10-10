@@ -5,7 +5,7 @@ export default [
     born: '2025',
     buried: 'soon',
     epitaph: ['opinionated', 'to the end'],
-    cause: 'opinions',
+    cause: 'AI slop',
     survivedBy: 'arch linux, hyprland, your dotfiles',
     lastSeen: { label: 'omarchy.org', href: 'https://omarchy.org' },
     obituary: {
