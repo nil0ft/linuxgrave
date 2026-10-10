@@ -17,8 +17,8 @@ html {
 }
 
 body {
-  margin: 0;
-  max-width: calc(78ch + 6rem);
+  margin: 0 auto;
+  max-width: calc(60ch + 32px);
   padding: 2rem 16px 3rem;
   background: var(--bg);
   color: var(--fg);
@@ -27,6 +27,7 @@ body {
 
 @media (min-width: 768px) {
   body {
+    max-width: calc(60ch + 6rem);
     padding: 3rem;
   }
 }
